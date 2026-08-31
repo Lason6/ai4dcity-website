@@ -7,17 +7,17 @@ export const TEAM_DATA = {
     role: "Principal Investigator",
     bio: (<>Wufan ZHAO is an Assistant Professor (tenure-track) and PhD supervisor at HKUST(Guangzhou), jointly appointed by <a href="https://soch.hkust-gz.edu.cn/academics/ugod/" target="_blank" rel="noopener noreferrer">Urban Governance and Design (UGOD)</a> and <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/" target="_blank" rel="noopener noreferrer">Robotics and Autonomous Systems (ROAS)</a>. He obtained his PhD in 2022 from the  <a href="https://www.itc.nl/" target="_blank" rel="noopener noreferrer"> Faculty of Geo-Information Science and Earth Observation (ITC)</a>, University of Twente, the Netherlands, and conducted post-doctoral research at <a href="https://iiw.kuleuven.be/onderzoek/geomatics/home" target="_blank" rel="noopener noreferrer" >KU Leuven</a>, Belgium, in 2023. His research focuses on intelligent sensing, modeling, and understanding of urban environments, including AI-driven remote sensing, 3D scene reconstruction, multimodal spatiotemporal fusion, and spatial intelligence. His work connects physical and digital urban spaces with robotic autonomous systems, supporting embodied cities, autonomous navigation, infrastructure inspection, and smart urban applications.</>),
     edu: [
-      "Editorial Board Member of the Photogrammetric Engineering & Remote Sensing", 
-      "Editorial Board Member of the Geospatial Intelligence",
-      "Editorial Board Member of the Information Geography",
+      "Editorial Board Member of the Photogrammetric Engineering & Remote Sensing, Geospatial Intelligence and Information Geography",
       "Executive Committee Member, ACM SIGSPATIAL China Chapter",
       "Member of ISPRS Commission IV, WG 9 on Digital Twins",
       "Member of ISDE Young Scientist Innovation Network ISDE-YSIN"
     ],
     Awards: [
-      "PG course, 24fall till now, Maching learning in Remote Sensing (5112)",
-      "PG course, 24fall-25spring, Science of City (5010)", 
-      "PG course, 26spring, GIS and Spatial Analysis (5030)"
+      "PG course, 24fall till now, Maching learning in Remote Sensing (UGOD5112)",
+      "PG course, 24fall-25spring, Science of City (UGOD5010)", 
+      "PG course, 26spring, GIS and Spatial Analysis (UGOD5030)",
+      "UG course, 26fall, English Language for University Studies (UCUG1051)",
+      "PG course, 26fall, Cross-disciplinary Research Methods (UCMP6010)"
     ],
     img: "/images/people/wufan.jpg" // 路径前加了 / 以适配 React public 文件夹
   },
@@ -34,6 +34,7 @@ export const TEAM_DATA = {
     { name: "Jing Ou", role: "3D vision, 3D city localization and reconstruction", email: "jingou714@gmail.com", homepage: "", img: "/images/people/OuJing.png" },
     { name: "Liwei Zou", role: "Multimodal data mining, Disaster analysis, Urban resilience", email: "zou.liwei.levi@gmail.com", homepage: "", img: "/images/people/zouliwei.jpg" },
     { name: "Dongli Wu", role: "Generative 3D Modeling", email: "annikeroseling@gmail.com", homepage: "", img: "/images/people/wudongli.jpg" },
+    { name: "Hongye Hou", role: "3D vision, multi-model learning", email: "houhongye2001@stu.xjtu.edu.cn", homepage: "", img: "/images/people/houhongye.jpg" },
     { name: "Tengxi Wang", role: "Remote sensing image analysis, time series analysis, machine learning", email: "twang744@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/wangtengxi.png" }
   ],
 
@@ -45,7 +46,6 @@ export const TEAM_DATA = {
   // 5. 研究助理 (Research Assistants)
   ra: [
     { name: "Wenbo Lv", role: "Spatiotemporal statistics, Remote sensing image processing", email: "lyu.geosocial@gmail.com", homepage: "https://spatlyu.github.io/", img: "/images/people/lvwenbo.png" },
-    { name: "Hongye Hou", role: "3D vision, multi-model learning", email: "houhongye2001@stu.xjtu.edu.cn", homepage: "", img: "/images/people/houhongye.jpg" },
     { name: "Mengrui Yin", role: "3D Computer Vision", email: "mengruiyin6@gmail.com", homepage: "", img: "/images/people/MengruiYin.jpg" },
     { name: "Hongyu Ye", role: "Spatial big data applications and 3D city modelling and simulation", email: "jackson513ye@qq.com", homepage: "https://www.redfish.space/", img: "/images/people/yehongyu.jpg" },
     { name: "Yawen Lai", role: "Explainable AI for urban systems, large-scale urban environmental analysis", email: "2030249245@qq.com", homepage: "", img: "/images/people/YawenLai.jpg" },

@@ -5,6 +5,15 @@
 
 export const PUBLICATION_ITEMS = [
   {
+    id: "new-type-urbanization-employment-quality",
+    title: "New-type urbanization policy, urban expansion, and employment quality in Chinese cities: evidence from a quasi-natural experiment in China",
+    desc: "Understanding how urbanization policies shape employment quality is essential for inclusive urban development. We examine the effects of China's new-type urbanization pilot policy on employment quality and the role of urban expansion, using panel data from 287 cities and a staggered difference-in-differences approach.",
+    topic: "Urban Env-Understanding",
+    year: "2026",
+    date: "GIScience & Remote Sensing, 2026. DOI: 10.1080/15481603.2026.2716413",
+    link: "https://www.tandfonline.com/doi/full/10.1080/15481603.2026.2716413"
+  },
+  {
     id: "urbanchange-multitask-land-cover",
     title: "Towards comprehensive multi-task land cover change detection leveraging vision-language model and LLM-driven agents",
     desc: "This work introduces UrbanChange, a multi-task dataset and framework for 2D and 3D land cover change detection using vision-language models and LLM-driven agents.",
