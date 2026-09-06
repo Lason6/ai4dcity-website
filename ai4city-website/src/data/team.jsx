@@ -59,7 +59,8 @@ export const TEAM_DATA = {
     { name: "Wanqi Liu", role: "Multimodal urban sensing, GeoAI", email: "w.liu.25@ucl.ac.uk", homepage: "", img: "/images/people/WanqiLiu.jpg" },
     { name: "Xuran Hu", role: "Intelligent interpretation of multimodal remote sensing data", email: "XuRanHu@stu.xidian.edu.cn", homepage: "xuran-hu.github.io", img: "/images/people/huxuran.jpg" },
     { name: "Tao Liu", role: "Geospatial Foundation Models, Remote Sensing Change Understanding, Multimodal Learning, Earth Surface Forecasting", email: "tao.liu@autuni.ac.nz", homepage: "", img: "/images/people/TaoLiu.jpg" },
-    { name: "Jianing Yu", role: "Multimodal remote sensing, GeoAI, and physics-guided learning", email: "", homepage: "", img: "/images/people/JianingYu.png" }
+    { name: "Jianing Yu", role: "Multimodal remote sensing, GeoAI, and physics-guided learning", email: "", homepage: "", img: "/images/people/JianingYu.png" },
+    { name: "Zidu Ouyang", role: "Multimodal fusion, Vision-language model", email: "markzzidu@gmail.com", homepage: "", img: "/images/people/ZiduOuyang.jpg" }
   ],
 
   // 7. 访问学者 (Visiting Scholars)
@@ -72,19 +73,19 @@ export const TEAM_DATA = {
 
   // 8. 校友 (Alumni)
   alu: [
-    { name: "Xiaoyu Li", tenure: "Mar 2026 - Jul 2026", role: "Pre Visiting Student, now PhD at TAMU", email: "xiaoyu6936@gmail.com", homepage: "", img: "/images/people/lixiaoyu.png" },
     { name: "Qinghe Liu", tenure: "Jan 2026 - Aug 2026", role: "Pre RA, now PhD at CUHK(Shenzhen)", email: "liuqinghe@nwafu.edu.cn", homepage: "", img: "/images/people/profile.png" },
-    { name: "Danyang Zhang", tenure: "Nov 2025 - Jun 2026", role: "Pre RA, now PhD at HKU", email: "zdy@gatech.edu", homepage: "", img: "/images/people/zhangdanyang.png" },
     { name: "Shuxian Shi", tenure: "Oct 2025 - Aug 2026", role: "Pre RA, now PhD at NNU", email: "Shelly-Shi@outlook.com", homepage: "", img: "/images/people/shishuxian.jpg" },
-    { name: "Qican Weng", tenure: "Oct 2025 - Apr 2026", role: "Pre RA, now Working", email: "626710943@QQ.com", homepage: "", img: "/images/people/profile.png" },
-    { name: "Bingchen Li", tenure: "Mar 2025 - Dec 2025", role: "Pre Visiting Student, now Working at Wanpanel.ai", email: "bingchen054@gmail.com", homepage: "", img: "/images/people/libingchen.png" },
     { name: "Yinrui Ren", tenure: "Jan 2025 - Aug 2026", role: "Pre RA, now PhD at SYSU", email: "2023025221@m.scnu.edu.com", homepage: "", img: "/images/people/renyanrui.png" },
-    { name: "Rui Zhang", tenure: "Jan 2025 - Jul 2025", role: "Pre RA, now PhD at Aarhus University", email: "", homepage: "", img: "/images/people/zhangrui.png" },
-    { name: "Hongrong Wang", tenure: "Dec 2024 - Aug 2025", role: "Pre RA, now Studying for Msc in CUHK(Shenzhen)", email: "b1520618977@163.com", homepage: "", img: "/images/people/wanghongrong.png" },
-    { name: "Ke Xu", tenure: "Nov 2024 - Jul 2025", role: "Pre RA, now Phd at HKUST", email: "kexu0501@gmail.com", homepage: "", img: "/images/people/xuke.png" },
     { name: "Junxing Luo", tenure: "Sep 2024 - Aug 2026", role: "Pre MPhil student, now phd at HKUST(GZ)", email: "junxingluo@hkust-gz.edu.cn", homepage: "", img: "/images/people/luojunxing.png" },
     { name: "Mingchen Li", tenure: "Sep 2024 - Aug 2026", role: "Pre MPhil student, now phd at HKUST", email: "mli736@hkust-gz.edu.cn", homepage: "", img: "/images/people/limingchen.png" },
     { name: "Yumiao Xiao", tenure: "Sep 2024 - Aug 2026", role: "Pre MPhil student, now phd at HKUST(GZ)", email: "yxiao224@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/xiaoyusen.png" },
+    { name: "Xiaoyu Li", tenure: "Mar 2026 - Jul 2026", role: "Pre Visiting Student, now PhD at TAMU", email: "xiaoyu6936@gmail.com", homepage: "", img: "/images/people/lixiaoyu.png" },
+    { name: "Danyang Zhang", tenure: "Nov 2025 - Jun 2026", role: "Pre RA, now PhD at HKU", email: "zdy@gatech.edu", homepage: "", img: "/images/people/zhangdanyang.png" },
+    { name: "Qican Weng", tenure: "Oct 2025 - Apr 2026", role: "Pre RA, now Working", email: "626710943@QQ.com", homepage: "", img: "/images/people/profile.png" },
+    { name: "Bingchen Li", tenure: "Mar 2025 - Dec 2025", role: "Pre Visiting Student, now Working at Wanpanel.ai", email: "bingchen054@gmail.com", homepage: "", img: "/images/people/libingchen.png" },
+    { name: "Hongrong Wang", tenure: "Dec 2024 - Aug 2025", role: "Pre RA, now Studying for Msc in CUHK(Shenzhen)", email: "b1520618977@163.com", homepage: "", img: "/images/people/wanghongrong.png" },
+    { name: "Rui Zhang", tenure: "Jan 2025 - Jul 2025", role: "Pre RA, now PhD at Aarhus University", email: "", homepage: "", img: "/images/people/zhangrui.png" },
+    { name: "Ke Xu", tenure: "Nov 2024 - Jul 2025", role: "Pre RA, now Phd at HKUST", email: "kexu0501@gmail.com", homepage: "", img: "/images/people/xuke.png" },
     { name: "Zongrong Li", tenure: "Jul 2024 - Jul 2025", role: "Pre RA, now Phd at TAMU", email: "zongrongli@hkust-gz.edu.cn", homepage: "https://jasper0122.github.io/", img: "/images/people/Lizongrong.png" },
     { name: "Zhongcheng Hong", tenure: "Jul 2024 - Jul 2025", role: "Pre RA, now Phd at Auckland University of Technology", email: "Zhongchengh@hkust-gz.edu.cn", homepage: "", img: "/images/people/HongZhongcheng.png" },
     { name: "Guanyu Hou", tenure: "Jul 2024 - Jul 2025", role: "Pre RA, now Phd at TAMU", email: "houguanyu21@gmail.com", homepage: "", img: "/images/people/houguanyu.png" },

@@ -11,16 +11,19 @@ export const PUBLICATION_ITEMS = [
     topic: "Urban Env-Understanding",
     year: "2026",
     date: "GIScience & Remote Sensing, 2026. DOI: 10.1080/15481603.2026.2716413",
-    link: "https://www.tandfonline.com/doi/full/10.1080/15481603.2026.2716413"
+    link: "https://www.tandfonline.com/doi/full/10.1080/15481603.2026.2716413",
+    mediaContent: "/images/research/new-type-urbanization-employment-quality.png"
   },
   {
     id: "urbanchange-multitask-land-cover",
     title: "Towards comprehensive multi-task land cover change detection leveraging vision-language model and LLM-driven agents",
     desc: "This work introduces UrbanChange, a multi-task dataset and framework for 2D and 3D land cover change detection using vision-language models and LLM-driven agents.",
-    topic: "Spatio-temporal (4D) Data Fusion",
+    topic: "Urban Env-Understanding",
     year: "2026",
     date: "ISPRS Journal of Photogrammetry and Remote Sensing, 2026. DOI: 10.1016/j.isprsjprs.2026.05.025",
-    link: "https://doi.org/10.1016/j.isprsjprs.2026.05.025"
+    link: "https://doi.org/10.1016/j.isprsjprs.2026.05.025",
+    projectLink:"https://github.com/tengxiwang5/GaiaAgent_Code",
+    mediaContent: "/images/research/urbanchange-multitask-land-cover.png"
   },
   {
     id: "holo360d",

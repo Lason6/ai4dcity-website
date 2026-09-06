@@ -76,6 +76,8 @@ const PROJECT_PREVIEWS = {
 };
 
 const RESEARCH_INCLUDE_IDS = new Set([
+  'new-type-urbanization-employment-quality',
+  'urbanchange-multitask-land-cover',
   'sat2city-v2',
   'geoidentity-sat2street',
   '2026001',
@@ -202,14 +204,23 @@ const RESEARCH_MAP = [
         label: 'Application',
         title: 'Remote Sensing Change Detection & Monitoring',
         desc: 'Task-driven dynamic scene monitoring and change detection from multimodal observations.',
-        projects: [{ id: '1774775739519', displayTier: 'medium', priority: 'core' }],
+        projects: [
+          { id: '1774775739519', displayTier: 'medium', priority: 'core' },
+          { id: 'urbanchange-multitask-land-cover', displayTier: 'medium', priority: 'core' },
+        ],
       },
       {
         position: 'bottom-left',
         label: 'Application',
-        title: 'Urban Resilience / Disaster Applications',
-        desc: 'Reserved for confirmed project pages on urban resilience and disaster applications.',
-        projects: [],
+        title: 'Urban Form, Environment & Society',
+        desc: 'Understanding how urban form and policies shape environmental and socioeconomic outcomes.',
+        projects: [
+          {
+            id: 'new-type-urbanization-employment-quality',
+            displayTier: 'medium',
+            priority: 'core',
+          }
+        ],
       },
       {
         position: 'bottom-right',
@@ -242,6 +253,8 @@ const PROJECT_DISPLAY_TITLES = {
 };
 
 const PROJECT_VENUE_LABELS = {
+  'new-type-urbanization-employment-quality': 'GIScience & RS 2026',
+  'urbanchange-multitask-land-cover': 'ISPRS J 2026',
   'sat2city-v2': 'Preprint 2026',
   'geoidentity-sat2street': 'ISPRS J 2026',
   2026001: 'CEUS 2026',
@@ -554,7 +567,11 @@ const DirectionPanel = ({ direction, projectById }) => {
 export const ResearchListPage = ({ title, description, items }) => {
   const projectById = useMemo(() => {
     const publicationProjects = items
-      .filter((item) => item.projectLink && item.projectLink.trim())
+      .filter((item) =>
+        [item.projectLink, item.link].some(
+          (url) => typeof url === 'string' && url.trim().length > 0
+        )
+      )
       .map(normalizeProject);
 
     const projects = [normalizeProject(SAT2CITY_V2), ...publicationProjects]
