@@ -34,7 +34,7 @@ export const TEAM_DATA = {
     { name: "Jing Ou", role: "3D vision, 3D city localization and reconstruction", email: "jingou714@gmail.com", homepage: "", img: "/images/people/OuJing.png" },
     { name: "Liwei Zou", role: "Multimodal data mining, Disaster analysis, Urban resilience", email: "zou.liwei.levi@gmail.com", homepage: "", img: "/images/people/zouliwei.jpg" },
     { name: "Dongli Wu", role: "Generative 3D Modeling", email: "annikeroseling@gmail.com", homepage: "", img: "/images/people/wudongli.jpg" },
-    { name: "Hongye Hou", role: "3D vision, multi-model learning", email: "houhongye2001@stu.xjtu.edu.cn", homepage: "", img: "/images/people/houhongye.jpg" },
+    { name: "Hongye Hou", role: "3D Generation, 3D Point cloud completion, 3D Understanding;", email: "hhou201@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/houhongye.jpg" },
     { name: "Tengxi Wang", role: "Remote sensing image analysis, time series analysis, machine learning", email: "twang744@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/wangtengxi.png" }
   ],
 
