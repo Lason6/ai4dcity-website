@@ -1,6 +1,18 @@
 // src/data/articles.js
 
 export const ARTICLE_CONTENT = {
+  "NeurIPS-2026": {
+    title: "Two Papers accepted by NeurIPS26! Congrats to Shuai and Jing!",
+    subtitle: "Congrats to Shuai and Jing!",
+    date: "September 25, 2026",
+    site: "",
+    author: "AI4City Lab",
+    img: "",
+    abstract: "Two papers from AI4City Lab have been accepted at NeurIPS26. Congratulations to Shuai and Jing!",
+    body: [],
+    link: "",
+    details: []
+  },
   "urban-science-conference-2026": {
     title: "The 4th Urban Science Conference",
     subtitle: "Invitation to the 4th Urban Science Conference",

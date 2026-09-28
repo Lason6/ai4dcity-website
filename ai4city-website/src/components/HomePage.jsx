@@ -41,8 +41,8 @@ export const HomePage = ({
               AI4CITY LAB
             </h1>
             
-            {ARTICLE_CONTENT['urban-science-conference-2026'] && (() => {
-              const s = ARTICLE_CONTENT['urban-science-conference-2026'];
+            {ARTICLE_CONTENT['NeurIPS-2026'] && (() => {
+              const s = ARTICLE_CONTENT['NeurIPS-2026'];
               const hasExternal = s.link && s.link.trim();
               const hasInternal = s.body && s.body.length > 0;
               const canClick = hasExternal || hasInternal;
@@ -53,7 +53,7 @@ export const HomePage = ({
                   onClick={() => {
                     if (!canClick) return;
                     if (hasExternal) window.open(s.link, '_blank');
-                    else setPage('article', 'urban-science-conference-2026');
+                    else setPage('article', '');
                   }}
                 >
                   <h2 className="text-xl md:text-2xl font-bold mb-2 text-white">Latest News</h2>
