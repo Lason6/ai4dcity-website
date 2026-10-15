@@ -39,9 +39,10 @@ export const TEAM_DATA = {
   ],
 
   // 4. 硕士生 (Master Students)
-  // mst: [
-  //   
-  // ],
+  mst: [
+    { name: "Man Zhang", role: "Intelligent optimization, computer vision, medical image segmentation, deep learning", email: "mzhang748@connect.hkust-gz.edu.cn", img: "/images/people/ManZhang.png" },
+    { name: "Yi Luo", role: "point cloud, multi-modal data analysis", email: "yluo601@connect.hkust-gz.edu.cn", img: "/images/people/YiLuo.jpg" }
+  ],
 
   // 5. 研究助理 (Research Assistants)
   ra: [
