@@ -41,8 +41,8 @@ export const HomePage = ({
               AI4CITY LAB
             </h1>
             
-            {ARTICLE_CONTENT['NeurIPS-2026'] && (() => {
-              const s = ARTICLE_CONTENT['NeurIPS-2026'];
+            {ARTICLE_CONTENT['spatiotemporal-causal-statistics'] && (() => {
+              const s = ARTICLE_CONTENT['spatiotemporal-causal-statistics'];
               const hasExternal = s.link && s.link.trim();
               const hasInternal = s.body && s.body.length > 0;
               const canClick = hasExternal || hasInternal;

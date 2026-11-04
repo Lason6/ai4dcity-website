@@ -35,7 +35,7 @@ export const TEAM_DATA = {
     { name: "Liwei Zou", role: "Multimodal data mining, Disaster analysis, Urban resilience", email: "zou.liwei.levi@gmail.com", homepage: "", img: "/images/people/zouliwei.jpg" },
     { name: "Dongli Wu", role: "Generative 3D Modeling", email: "annikeroseling@gmail.com", homepage: "", img: "/images/people/wudongli.jpg" },
     { name: "Hongye Hou", role: "3D Generation, 3D Point cloud completion, 3D Understanding;", email: "hhou201@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/houhongye.jpg" },
-    { name: "Tengxi Wang", role: "Remote sensing image analysis, time series analysis, machine learning", email: "twang744@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/wangtengxi.png" }
+    { name: "Tengxi Wang", role: "Computer Vision, Agentic Workflow, Multi-Modal Learning", email: "twang744@connect.hkust-gz.edu.cn", homepage: "", img: "/images/people/wangtengxi.png" }
   ],
 
   // 4. 硕士生 (Master Students)
@@ -48,7 +48,6 @@ export const TEAM_DATA = {
   ra: [
     { name: "Wenbo Lv", role: "Spatiotemporal statistics, Remote sensing image processing", email: "lyu.geosocial@gmail.com", homepage: "https://spatlyu.github.io/", img: "/images/people/lvwenbo.png" },
     { name: "Mengrui Yin", role: "3D Computer Vision", email: "mengruiyin6@gmail.com", homepage: "", img: "/images/people/MengruiYin.jpg" },
-    { name: "Hongyu Ye", role: "Spatial big data applications and 3D city modelling and simulation", email: "jackson513ye@qq.com", homepage: "https://www.redfish.space/", img: "/images/people/yehongyu.jpg" },
     { name: "Yawen Lai", role: "Explainable AI for urban systems, large-scale urban environmental analysis", email: "2030249245@qq.com", homepage: "", img: "/images/people/YawenLai.jpg" },
     { name: "Hongyu Yao", role: "Remote sensing image processing and Spatial-temporal data analysis", email: "yoyojusto@163.com", homepage: "", img: "/images/people/HongyuYao.jpg" },
     { name: "Xiangyu Liu", role: "3D reconstruction, vision localization", email: "lxyctf@163.com", homepage: "", img: "/images/people/XiangyuLiu.png" }
@@ -56,12 +55,13 @@ export const TEAM_DATA = {
 
   // 6. 访问学生 (Visiting Students)
   vst: [
-    { name: "Haoran Gong", role: "computer vision, point clouds, and 3D reconstruction", email: "gonghr@stu.xjtu.edu.cn", homepage: "", img: "/images/people/gonghaoran.jpg" },
+    // { name: "Haoran Gong", role: "computer vision, point clouds, and 3D reconstruction", email: "gonghr@stu.xjtu.edu.cn", homepage: "", img: "/images/people/gonghaoran.jpg" },
     { name: "Wanqi Liu", role: "Multimodal urban sensing, GeoAI", email: "w.liu.25@ucl.ac.uk", homepage: "", img: "/images/people/WanqiLiu.jpg" },
     { name: "Xuran Hu", role: "Intelligent interpretation of multimodal remote sensing data", email: "XuRanHu@stu.xidian.edu.cn", homepage: "xuran-hu.github.io", img: "/images/people/huxuran.jpg" },
     { name: "Tao Liu", role: "Geospatial Foundation Models, Remote Sensing Change Understanding, Multimodal Learning, Earth Surface Forecasting", email: "tao.liu@autuni.ac.nz", homepage: "", img: "/images/people/TaoLiu.jpg" },
     { name: "Jianing Yu", role: "Multimodal remote sensing, GeoAI, and physics-guided learning", email: "", homepage: "", img: "/images/people/JianingYu.png" },
-    { name: "Zidu Ouyang", role: "Multimodal fusion, Vision-language model", email: "markzzidu@gmail.com", homepage: "", img: "/images/people/ZiduOuyang.jpg" }
+    // { name: "Zidu Ouyang", role: "Multimodal fusion, Vision-language model", email: "markzzidu@gmail.com", homepage: "", img: "/images/people/ZiduOuyang.jpg" },
+    { name: "Hongyu Ye", role: "Spatial big data applications and 3D city modelling and simulation", email: "jackson513ye@qq.com", homepage: "https://www.redfish.space/", img: "/images/people/yehongyu.jpg" }
   ],
 
   // 7. 访问学者 (Visiting Scholars)

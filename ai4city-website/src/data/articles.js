@@ -1,6 +1,18 @@
 // src/data/articles.js
 
 export const ARTICLE_CONTENT = {
+  "spatiotemporal-causal-statistics": {
+    title: "Congratulations to Wenbo! His series of works on spatiotemporal causal statistics have recently been accepted by Communications Physics, IJGIS, and AAAG!",
+    subtitle: "Congratulations to Wenbo!",
+    date: "November 4, 2026",
+    site: "",
+    author: "AI4City Lab",
+    img: "",
+    abstract: "Congratulations to Wenbo! His series of works on spatiotemporal causal statistics have recently been accepted by Communications Physics, IJGIS, and AAAG!",
+    body: [],
+    link: "",
+    details: []
+  },
   "NeurIPS-2026": {
     title: "Two Papers accepted by NeurIPS26! Congrats to Shuai and Jing!",
     subtitle: "Congrats to Shuai and Jing!",
