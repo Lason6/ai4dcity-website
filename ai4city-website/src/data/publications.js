@@ -5,6 +5,40 @@
 
 export const PUBLICATION_ITEMS = [
   {
+    id: "smart-transfer",
+    title: "Smart Transfer: Leveraging Vision Foundation Model for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery",
+    desc: "Smart Transfer adapts a vision foundation model across regions to rapidly map building damage from very-high-resolution post-earthquake imagery.",
+    topic: "Urban Env-Understanding",
+    year: "2027",
+    date: "Remote Sensing of Environment, 348, 115744 (2027). DOI: 10.1016/j.rse.2026.115744",
+    link: "https://doi.org/10.1016/j.rse.2026.115744",
+    wechatLink: "https://mp.weixin.qq.com/s/v4dXzLmYAs1iSuqXLOplyQ",
+    projectLink: "https://github.com/ai4city-hkust/SmartTransfer",
+    mediaContent: "/images/research/smart transfer.png"
+  },
+  {
+    id: "geopano",
+    title: "GeoPano: Towards Geometrically Accurate 3D Reconstruction from a Single Panorama",
+    desc: "GeoPano reconstructs a consistent 3D point cloud from one panorama using geometry-aware attention and supervision in both perspective and spherical space.",
+    topic: "AI based 3D City Modeling",
+    year: "2026",
+    date: "NeurIPS 2026. arXiv:2610.21297",
+    link: "https://arxiv.org/abs/2610.21297",
+    wechatLink: "https://mp.weixin.qq.com/s/Iw56E7YYVvZ5wv4ixAw-kw",
+    mediaContent: "/images/research/geopano.jpg"
+  },
+  {
+    id: "citystar",
+    title: "CitySTAR: Structured and Topology-Aware Reasoning for Open-Vocabulary Urban 3D Grounding",
+    desc: "CitySTAR uses scene graphs and topology-aware reasoning to locate objects described in natural language within city-scale 3D point clouds, without task-specific training.",
+    topic: "Spatio-temporal (4D) Data Fusion",
+    year: "2026",
+    date: "NeurIPS 2026. arXiv:2609.19911",
+    link: "https://arxiv.org/abs/2609.19911",
+    wechatLink: "https://mp.weixin.qq.com/s/GKJafsLoPl2jCoJFLN_13A",
+    mediaContent: "/images/research/citystar.png"
+  },
+  {
     id: "new-type-urbanization-employment-quality",
     title: "New-type urbanization policy, urban expansion, and employment quality in Chinese cities: evidence from a quasi-natural experiment in China",
     desc: "Understanding how urbanization policies shape employment quality is essential for inclusive urban development. We examine the effects of China's new-type urbanization pilot policy on employment quality and the role of urban expansion, using panel data from 287 cities and a staggered difference-in-differences approach.",
@@ -12,6 +46,7 @@ export const PUBLICATION_ITEMS = [
     year: "2026",
     date: "GIScience & Remote Sensing, 2026. DOI: 10.1080/15481603.2026.2716413",
     link: "https://www.tandfonline.com/doi/full/10.1080/15481603.2026.2716413",
+    wechatLink: "https://mp.weixin.qq.com/s/-cT2PLYrBwNy4D0xZztO2Q",
     mediaContent: "/images/research/new-type-urbanization-employment-quality.png"
   },
   {
@@ -22,6 +57,7 @@ export const PUBLICATION_ITEMS = [
     year: "2026",
     date: "ISPRS Journal of Photogrammetry and Remote Sensing, 2026. DOI: 10.1016/j.isprsjprs.2026.05.025",
     link: "https://doi.org/10.1016/j.isprsjprs.2026.05.025",
+    wechatLink: "https://mp.weixin.qq.com/s/bY9QKu6TshQaywZJ_hsDPQ",
     projectLink:"https://github.com/tengxiwang5/GaiaAgent_Code",
     mediaContent: "/images/research/urbanchange-multitask-land-cover.png"
   },
@@ -33,6 +69,7 @@ export const PUBLICATION_ITEMS = [
     year: "2026",
     date: "ECCV 2026. arXiv:2604.22482",
     link: "https://arxiv.org/abs/2604.22482",
+    wechatLink: "https://mp.weixin.qq.com/s/kLgr69prq4qXs7g9ZUiRAg",
     projectLink: "https://jou719.github.io/Holo360D_homepage/",
     mediaContent: "/images/research/holo360d-cover.jpg"
   },
@@ -44,6 +81,7 @@ export const PUBLICATION_ITEMS = [
     year: "2026",
     date: "ECCV 2026. arXiv:2603.09385",
     link: "https://arxiv.org/abs/2603.09385",
+    wechatLink: "https://mp.weixin.qq.com/s/9avdE7NbLtj0NCC3mLsQeQ",
     projectLink: "https://github.com/yinruiRen/EventVGGT",
     mediaContent: "/images/research/eventvggt-teaser.jpg"
   },
@@ -55,6 +93,7 @@ export const PUBLICATION_ITEMS = [
     year: "2026",
     date: "ECCV 2026. arXiv:2512.14200",
     link: "https://arxiv.org/abs/2512.14200",
+    wechatLink: "https://mp.weixin.qq.com/s/7fq0kkHOl29x4lcM8fllGg",
     projectLink: "https://zhuoxiaoli.github.io/skylume_page/",
     mediaContent: "/images/research/skylume-teaser.jpg"
   },
@@ -77,6 +116,7 @@ export const PUBLICATION_ITEMS = [
     year: "2026",
     date: "ISPRS Journal of Photogrammetry and Remote Sensing, 2026. DOI: 10.1016/j.isprsjprs.2026.03.049",
     link: "https://doi.org/10.1016/j.isprsjprs.2026.03.049",
+    wechatLink: "https://mp.weixin.qq.com/s/CwR2Hy9mXqjlw_cyHreKOg",
     projectLink: "https://github.com/ai4city-hkust/GeoIdentity-Sat2Street",
     mediaContent: "/images/research/GeoIdentity-Sat2Street.jpg"
   },

@@ -76,6 +76,9 @@ const PROJECT_PREVIEWS = {
 };
 
 const RESEARCH_INCLUDE_IDS = new Set([
+  'smart-transfer',
+  'geopano',
+  'citystar',
   'new-type-urbanization-employment-quality',
   'urbanchange-multitask-land-cover',
   'sat2city-v2',
@@ -137,8 +140,9 @@ const RESEARCH_MAP = [
         title: '360 / Terrestrial 3D Reconstruction',
         desc: 'Panoramic and ground-view datasets for continuous trajectory 3D reconstruction.',
         projects: [
-          { id: 'holo360d', displayTier: 'medium', priority: 'secondary' },
+          { id: 'holo360d', displayTier: 'compact', priority: 'secondary' },
           { id: 'eventvggt', displayTier: 'compact', priority: 'secondary' },
+          { id: 'geopano', displayTier: 'compact', priority: 'secondary' },
         ],
       },
     ],
@@ -154,7 +158,10 @@ const RESEARCH_MAP = [
         label: 'Representation',
         title: 'Point Cloud Semantic Segmentation / Fusion',
         desc: 'Point-cloud and multimodal semantic understanding through shared-private representation learning.',
-        projects: [{ id: '2026003', displayTier: 'medium', priority: 'core' }],
+        projects: [
+          { id: '2026003', displayTier: 'medium', priority: 'core' },
+          { id: 'citystar', displayTier: 'compact', priority: 'secondary' },
+        ],
       },
       {
         position: 'top-right',
@@ -225,9 +232,15 @@ const RESEARCH_MAP = [
       {
         position: 'bottom-right',
         label: 'Application',
-        title: 'Cultural Heritage / Domain Applications',
-        desc: 'Reserved for confirmed project pages on cultural heritage and domain applications.',
-        projects: [],
+        title: 'Urban Disaster and Resilience Assessment',
+        desc: 'Assessing urban disaster risks and vulnerabilities, and studying how cities prepare for, respond to, and recover from disasters.',
+        projects: [
+          {
+            id: 'smart-transfer',
+            displayTier: 'medium',
+            priority: 'core',
+          }
+        ],
       },
     ],
   },
@@ -253,6 +266,9 @@ const PROJECT_DISPLAY_TITLES = {
 };
 
 const PROJECT_VENUE_LABELS = {
+  'smart-transfer': 'RSE 2027',
+  'geopano': 'NeurIPS 2026',
+  'citystar': 'NeurIPS 2026',
   'new-type-urbanization-employment-quality': 'GIScience & RS 2026',
   'urbanchange-multitask-land-cover': 'ISPRS J 2026',
   'sat2city-v2': 'Preprint 2026',
