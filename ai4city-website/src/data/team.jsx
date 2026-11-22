@@ -30,7 +30,7 @@ export const TEAM_DATA = {
   // 3. 博士生 (Ph.D. Students)
   phd: [
     { name: "Tongyan Hua", role: "3D city reconstruction, NeRF and SLAM", email: "thua388@connect.hkust-gz.edu.cn", homepage: "https://thua919.github.io/", img: "/images/people/TongyanHua.png" },
-    { name: "Shuai Zhang", role: "Point cloud processing and foundation model", email: "shuaizhang2@hkust-gz.edu.cn", homepage: "http://shuaizhang-hkust.cn/", img: "/images/people/ShuaiZhang.png" },
+    { name: "Shuai Zhang", role: "Point cloud processing and foundation model", email: "szhang240@connect.hkust-gz.edu.cn", homepage: "http://shuaizhang-hkust.cn/", img: "/images/people/ShuaiZhang.png" },
     { name: "Jing Ou", role: "3D vision, 3D city localization and reconstruction", email: "jingou714@gmail.com", homepage: "", img: "/images/people/OuJing.png" },
     { name: "Liwei Zou", role: "Multimodal data mining, Disaster analysis, Urban resilience", email: "zou.liwei.levi@gmail.com", homepage: "", img: "/images/people/zouliwei.jpg" },
     { name: "Dongli Wu", role: "Generative 3D Modeling", email: "annikeroseling@gmail.com", homepage: "", img: "/images/people/wudongli.jpg" },
@@ -50,7 +50,8 @@ export const TEAM_DATA = {
     { name: "Mengrui Yin", role: "3D Computer Vision", email: "mengruiyin6@gmail.com", homepage: "", img: "/images/people/MengruiYin.jpg" },
     { name: "Yawen Lai", role: "Explainable AI for urban systems, large-scale urban environmental analysis", email: "2030249245@qq.com", homepage: "", img: "/images/people/YawenLai.jpg" },
     { name: "Hongyu Yao", role: "Remote sensing image processing and Spatial-temporal data analysis", email: "yoyojusto@163.com", homepage: "", img: "/images/people/HongyuYao.jpg" },
-    { name: "Xiangyu Liu", role: "3D reconstruction, vision localization", email: "lxyctf@163.com", homepage: "", img: "/images/people/XiangyuLiu.png" }
+    { name: "Xiangyu Liu", role: "Vision localization", email: "lxyctf@163.com", homepage: "", img: "/images/people/XiangyuLiu.png" },
+    { name: "Aohui Ji", role: "Embodied AI, robotic systems and multi-sensor fusion", email: "644920458@qq.com", homepage: "", img: "/images/people/AohuiJi.jpg" }
   ],
 
   // 6. 访问学生 (Visiting Students)
